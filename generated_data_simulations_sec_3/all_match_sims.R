@@ -45,9 +45,7 @@ ns_to_test = c(
 	50,
 	100,
 	200,
-	500,
-	1000,
-	2000
+	500
 )
 
 #cutoff parameter for matching
@@ -66,26 +64,26 @@ prob_match_cutoff_alphas = c(
 
 #how do we randomize subjects into treatment or control?
 randomization_types = c(
-#	"van_bau",
-#	"efron_bau",
-#	"strat_bau",
-#	"ps_min_bau",
+	"van_bau",
+	"efron_bau",
+	"strat_bau",
+	"ps_min_bau",
 #	"pm_bau",
-	"pm_kk"
+	"pm_kk",
 #	"pm_kk_pbs",
-#	"van_linear",
-#	"efron_lin",
-#	"strat_lin",
-#	"ps_min_lin",
+	"van_linear",
+	"efron_lin",
+	"strat_lin",
+	"ps_min_lin",
 #	"pm_lin",
-#	"pm_lin_kk",
+	"pm_lin_kk",
 #	"pm_lin_kk_pbs",
-#	"van_exact",
-#	"efron_exact",	
-#	"strat_exact",
-#	"ps_min_exact",
+	"van_exact",
+	"efron_exact",	
+	"strat_exact",
+	"ps_min_exact",
 #	"pm_exact",
-#	"pm_kk_exact"
+	"pm_kk_exact"
 )
 
 
